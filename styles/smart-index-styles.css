@@ -1,136 +1,3 @@
-@font-face {
-    font-family: Roboto;
-    src: url(fonts/roboto.ttf);
-}
-* {
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-family: Roboto;
-    background-color: white;
-}
-.header,
-.footer,
-.center,
-.featuring {
-    width: 100%;
-    display: block;
-}
-.header {
-    background-color: #e8e8e8;
-}
-.center {}
-.content {
-    display: block;
-    margin: 0px auto;
-    width: 1260px;
-    min-height: 10px;
-}
-.header_content {
-    background-color: #e8e8e8;
-    color: #3a3a3a;
-    height: 40px;
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 100;
-}
-.small_header_text {
-    margin: -18px 0px 0px -25px;
-    width: 100%;
-    text-align: right;
-    display: block;
-}
-.footer_content a {
-    color: white;
-}
-a {
-    text-decoration: none;
-    margin-left: 5%;
-}
-a:link,
-a:visited {
-    color: #3a3a3a;
-    /* Цвет ссылок */
-}
-a[class="botton_all"] {
-    color: 85aefe;
-}
-.header_text {
-    margin: 8px 0px 0px 10px;
-    float: left;
-    font-size: 18px;
-    width: 40%;
-}
-.header_text a {
-    display: block;
-    float: left;
-}
-
-/*style for icons*/
-
-.logo,
-.find_area,
-.magnifying_glass,
-.email,
-.twiter,
-.rss {
-    display: block;
-    float: left;
-}
-.email {
-    margin: 0 5px;
-    width: 24px;
-    height: 18px;
-    background: url('images/ico_mail.png') no-repeat;
-}
-.twiter {
-    margin: 0 5px;
-    width: 18px;
-    height: 18px;
-    background: url('images/ico_twiter.png') no-repeat;
-}
-.rss {
-    margin: 0 5px;
-    width: 18px;
-    height: 18px;
-    background: url('images/ico_rss.png') no-repeat;
-}
-.magnifying_glass {
-    height: 40px;
-    width: 40px;
-}
-.magnifying_glass {
-    background: url('images/magnifying_glass.png') no-repeat;
-}
-.logo {
-    background: url('images/logo.png') no-repeat;
-    height: 40px;
-    width: 52px;
-}
-.find_area {
-    height: 40px;
-    width: 40px;
-    margin: 0 15px;
-    background: url(images/elips.png) no-repeat;
-}
-.main_featuring {
-    clear: both;
-    display: block;
-    position: relative;
-    /*background:url('../data_content/images/main_photo1.jpg') no-repeat;*/
-    height: 484px;
-}
-.main_featuring .center {
-    background: none;
-}
-.fon_featuring {
-    display: inline;
-    float: right;
-}
-.absolute {
-    position: absolute;
-}
 .featuring_background {
     background: #e0dede;
     width: 100%;
@@ -138,31 +5,6 @@ a[class="botton_all"] {
 .main_featuring .center {
     margin: 0px 27px;
     width: 1200px;
-}
-.center_text {
-    color: #72727b;
-    font-size: 55px;
-    font-weight: lighter;
-    text-align: center;
-    margin: 25px auto;
-    float: none;
-}
-.left_arrow,
-.right_arrow,
-{
-    display: block;
-    float: left;
-    margin: 100px 50px;
-}
-.left_arrow img {
-    display: block;
-    float: left;
-    margin: 100px 50px;
-}
-.right_arrow img {
-    display: block;
-    float: left;
-    margin: 65px 50px;
 }
 .text_right {
     display: block;
@@ -189,149 +31,6 @@ a[class="botton_all"] {
     color: white;
     text-shadow: 70px 3px 70px #00aef0, -70px -3px 70px #00aef0, 20px 3px 70px #00aef0, -20px -3px 70px #00aef0, 0px 3px 70px #00aef0;
 }
-.bottom_see,
-.bottom_find {
-    display: block;
-    float: left;
-    background: rgba(38, 200, 241, 0.8);
-    border-radius: 7px;
-    width: 270px;
-    height: 55px;
-    margin: 100px auto;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bolder;
-    line-height: 2;
-    color: white;
-}
-.bottom_find {
-    margin: 25px auto;
-    margin-bottom: 40px;
-    float: none;
-    font-size: 32px;
-    font-weight: bolder;
-    line-height: 1.7;
-    font-family: Helvetica, sans-serif;
-}
-.status_where {
-    clear: both;
-    display: block;
-    float: none;
-    width: 100px;
-    margin: 60px auto;
-}
-.boll {
-    width: 15px;
-    height: 15px;
-    margin: 2.5px;
-    background: rgba(255, 255, 255, 0.8);
-    display: block;
-    position: relative;
-    float: left;
-    border-radius: 50%;
-}
-.presentation_bar_area,
-.startup_area,
-.startup_popular_area {
-    background: #e9e9e9;
-}
-.presentation_bar_area {
-    border-top: 13px solid #e0dede;
-    border-bottom: 13px solid #e0dede;
-    padding-bottom: 30px;
-    width: 100%;
-}
-.main_statistic {
-    background: white;
-    letter-spacing: 1px;
-    margin: 5px 0;
-    width: 100%;
-}
-.left_text,
-.right_text {
-    display: block;
-    width: 360px;
-    position: relative;
-    float: left;
-    font-size: 14px;
-    line-height: 1.6;
-    font-weight: 700;
-    color: #0d5d5d;
-}
-.right_text {
-    margin-right: 10px;
-    text-align: left;
-}
-.left_text {
-    margin-left: 20px;
-    text-align: right;
-}
-.blue_text {
-    color: blue;
-    margin-right: 4px;
-}
-.bottom_started {
-    display: block;
-    float: left;
-    background: #68ae2c;
-    border-radius: 10px;
-    width: 270px;
-    height: 55px;
-    margin: 30px 40px;
-    text-align: center;
-    font-size: 36px;
-    font-weight: bolder;
-    line-height: 1.4;
-    color: white;
-}
-.bottom_categories {
-    display: block;
-    float: left;
-    background: #E3E1AE;
-    border-radius: 10px;
-    width: 265px;
-    height: 65px;
-    margin: 5px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 1;
-    color: #404040;
-}
-div.butt0,
-a.butt0 {
-    width: 261px;
-    height: 61px;
-    border: 2px solid #f8ad00;
-}
-.vert_text_categories {
-    height: 65px;
-    width: 200px;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-}
-.bottom_categories img {
-    display: block;
-    float: left;
-    margin: 10px;
-}
-div.butt1,
-a.butt1 {
-    background: #a6d85a;
-}
-div.butt2,
-a.butt2 {
-    background: #f85e5e;
-}
-div.butt3,
-a.butt3 {
-    background: #f8ad00;
-}
-div.butt4,
-a.butt4 {
-    background: #9ebcf6;
-}
 .presentation_bar_area .center,
 .get_started_area .center,
 .startup_area .center,
@@ -339,8 +38,8 @@ a.butt4 {
 .notib_investors_area .center,
 .main_statistic .center,
 .footer_content .center,
-.talents_area .center,
-.text_get_start .center {
+.talents_area .center
+{
     margin: 0px auto;
     display: block;
     position: relative;
@@ -369,65 +68,6 @@ a.butt4 {
     border-bottom: 13px solid #e0dede;
     padding-bottom: 20px;
     width: 100%;
-}
-body .botton_all {
-    border: 4px solid #85aefe;
-    color: #85aefe;
-    width: 180px;
-    height: 20px;
-    display: block;
-    margin: 20px 0px 20px 902px;
-    text-align: center;
-    padding-bottom: 3px;
-    font-size: 18px;
-    border-radius: 20px;
-    font-weight: 900;
-}
-.title_area {
-    font-size: 25px;
-    float: left;
-    margin-left: 5px;
-    margin-top: 5px;
-    line-height: 1;
-    color: #545454;
-    text-transform: uppercase;
-}
-.botton_started_categories {
-    display: block;
-    float: left;
-    background: #d8d7d7;
-    border-radius: 10px;
-    width: 235px;
-    height: 235px;
-    margin: 0px 5px;
-    text-align: justify;
-    font-size: 14px;
-    font-weight: bolder;
-    line-height: 1.5;
-    color: black;
-    padding: 15px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-.vert_text_started {
-    height: 235px;
-    display: table-cell;
-    vertical-align: middle;
-}
-.botton_block_get_start {
-    display: block;
-    background: red;
-    border-radius: 10px;
-    width: 230px;
-    height: 55px;
-    margin: 80px auto;
-    margin-top: 91px;
-    text-align: center;
-    font-size: 30px;
-    font-family: Helvetica, sans-serif;
-    color: black;
-    line-height: 1.6;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
 .bar_triangle {
     clear: both;
@@ -469,42 +109,6 @@ div.trian2 {
 }
 div.trian4 {
     border-bottom: 15px solid #9ebcf6;
-}
-.text_get_start .center {
-    text-align: center;
-    background: #e0dede;
-}
-.text_get_start {
-    border-top: 13px solid #e0dede;
-    clear: both;
-    display: block;
-    margin: 20px 0px 0px 5px;
-    font: 400 20px Gotham;
-    font-family: Roboto, sans-serif;
-    width: 100%;
-    background: #e0dede;
-    padding: 0px;
-}
-.title_bold_area {
-    font-size: 20px;
-    float: left;
-    margin-left: 5px;
-    margin-top: 20px;
-    line-height: 1;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-}
-.centr_content {
-    background-color: white;
-    ;
-}
-.centr_content img {
-    min-height: 100%;
-    min-width: 100%;
-    display: block;
-    float: none;
-    position: relative;
-    clear: both;
 }
 .startup_cell,
 .notib_investors_cell,
@@ -882,10 +486,13 @@ div .two_investor .invest_midle_text {
     background: #636464;
     color: white;
     border-radius: 7px;
+    overflow: hidden;
+    text-overflow: ellipsis;    
 }
 .back_title {
-    width: 160px;
+    width: 228px;
     display: block;
+    height: 50px;
     margin: 25px auto;
     float: none;
     color: #aae1ae;
@@ -894,15 +501,33 @@ div .two_investor .invest_midle_text {
 }
 .back .back_content {
     width: 228px;
-    height: 151px;
     font: 500 12px Roboto;
     color: #d4d1d1;
     text-align: justify;
     display: block;
+    vertical-align: middle;
     float: none;
     margin: 5px auto;
     margin-bottom: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
+.talents_area .back .back_content
+{
+    height: 180px;	
+}
+
+.startup_area .back .back_content, .startup_popular_area .back .back_content
+{
+	height: 154px;
+}
+
+.notib_investors_area .back .back_content
+{
+	height: 190px;
+}
+
 .back .investor {
     height: 180px;
 }
@@ -916,32 +541,4 @@ div .two_investor .invest_midle_text {
     text-align: left;
     line-height: 2.1;
     color: white;
-}
-.icon_Follow,
-.icon_See_profile,
-.icon_Save {
-    background: url('images/follow.png') no-repeat;
-}
-.icon_Massege {
-    background: url('images/message.png') no-repeat;
-}
-.icon_Share {
-    background: url('images/share.png') no-repeat;
-}
-.icon_Like {
-    background: url('images/like.png') no-repeat;
-}
-.back_icon {
-    display: block;
-    float: left;
-    margin: 4px 35px 3px 5px;
-    width: 19px;
-    height: 19px;
-}
-.green_text {
-    display: block;
-    margin-top: 10px;
-    clear: both;
-    color: #6ccd7c;
-    text-align: right;
 }
